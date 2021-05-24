@@ -1,0 +1,188 @@
+html {
+  box-sizing: border-box;
+  height: 100%;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto", "Arial", sans-serif;
+  background-color: rgb(148, 243, 246);
+  color: #000;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+
+/* CONTAINER */
+.container {
+  max-width: 1050px;
+  padding-left: 25px;
+  padding-right: 25px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.section-part {
+  margin-top: 40px;
+  display: flex;
+  margin-bottom: 40px;
+}
+
+.left-box {
+  display: block;
+  background-image: url(../img/background.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 2px 0 0 2px;
+  /* height: 300px; */
+  
+}
+
+.boxing{
+  padding: 173px 70px;
+}
+
+.left-h2 {
+  color: #fff;
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.left-p {
+  color: #fff;
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.left-link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #fff;
+  background-color: rgba(106, 185, 106, 0.774);
+  padding: 5px 10px;
+  border-radius: 20px;
+  width: 112px;
+}
+
+.left-link::before{
+  display: block;
+  background-image: url(../img/file.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 20px;
+  height: 15px;
+  margin-right: 5px;
+  content: "";
+}
+
+.raight-box {
+  background-color: #fff;
+  padding: 30px;
+  border-radius:  0 2px 2px 0;
+  width: 450px;
+  margin: 0;
+}
+
+.header-part {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.raight-h2 {
+  margin: 0;
+
+}
+
+
+.years {
+  display: flex;
+  color: darkgrey;
+  margin-bottom: 30px;
+}
+
+.years-span {
+  margin-right: 10px;
+  transition: all 0.4s ease;
+  font-size: 15px;
+}
+
+.years-span:hover{
+  color: #000;
+}
+
+.main-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.main-box:nth-child(7){
+  margin: 0;
+  
+}
+
+.top-logo{
+  display: flex;
+  align-items: center;
+}
+
+.main-box-p{
+  display: flex;
+  font-size: 13px;
+  margin-left: 8px;
+}
+
+.date-time {
+  display: flex;
+  align-items: center;
+  margin-left: 35px;
+}
+
+.date-span {
+  color: lightslategrey;
+  font-size: 25px;
+}
+
+.month {
+  display: flex;
+  flex-direction: column;
+  font-size: 9px;
+  margin-left: 5px;
+}
+
+.month-span {
+  font-weight: bold;
+  margin-bottom: 3px;
+}
+
+
